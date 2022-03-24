@@ -24,7 +24,6 @@ td {
   height: 40px;
   background-color: gray;
   margin: 0;
-  cursor: pointer;
   outline: 2px solid rgb(98, 98, 98);
 }
 td:hover {
