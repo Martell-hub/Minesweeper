@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+</head>
+<body onkeyup="handleKey(event)" onload="init()">
+    <h1>Minesweeper</h1>
+    <div class="info">
+        <div class="buttons">
+            <button id='button' onclick="difficulty(this)" class="easy">easy</button>
+            <button id='button' onclick="difficulty(this)" class="medium">medium</button>
+            <button id='button' onclick="difficulty(this)" class="hard">hard</button>
+        </div>
+        <img class="new-game" onclick="init()"></button>
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+      </table>
+    <script src="sctipt/utils.js"></script>
+    <script src="sctipt/main.js"></script>
+</body>
+</html>
